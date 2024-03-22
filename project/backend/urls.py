@@ -5,6 +5,7 @@ from backend.views import PartnerUpdate, RegisterAccount, LoginAccount, Category
     BasketView, \
     AccountDetails, ContactView, OrderView, PartnerState, PartnerOrders, ConfirmAccount
 
+
 app_name = 'backend'
 urlpatterns = [
     path('partner/update', PartnerUpdate.as_view(), name='partner-update'),
